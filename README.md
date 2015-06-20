@@ -1,7 +1,10 @@
 Odoo POS Inheritance Template
 =============================
 
+
 A template for rapid inheritance of POS module 
+
+
 
 How To Use
 ----------
@@ -12,7 +15,7 @@ How To Use
 - Make your POS improvements;
 - Install your module;
 
-Read More About Scaffold Command
+Read More About the Scaffold Command
 --------------------------------
 
 [English](https://www.odoo.com/documentation/8.0/reference/cmdline.html)
