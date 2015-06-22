@@ -6,6 +6,7 @@ function pos_template_db(instance, module){
     */
 
     module.PosDB = pos_base.PosDB.include({
+
         init: function(options){
             this._super();
         }
