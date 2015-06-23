@@ -5,7 +5,6 @@ Odoo POS Inheritance Template
 A template for rapid inheritance of POS module 
 
 
-
 How To Use
 ----------
 
