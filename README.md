@@ -32,14 +32,14 @@ Un template pour modifier le POS plus rapidement.
 Comment l'utiliser
 ------------------
 
-- Déplacer le dossier pos_template vers repertoire-Odoo/openerp/cli/templates;
+- Déplacer le dossier pos_template vers le repertoire-Odoo/openerp/cli/templates;
 - À partir du repertoire d'Odoo, lancer la commande ./odoo.py scaffold -t theme pos_template ./addons/;
 - Le template se trouve à présent dans le repertoire repertoire-Odoo/addons;
 - Faites vos modifications;
-- Installer votre module;
+- Installez votre module;
 
-Plus sur la commande scaffold
------------------------------
+En savoir plus sur la commande scaffold
+---------------------------------------
 
 [En français](http://www.y-note.cm/debuter-avec-odoo-creer-un-module-en-une-commande/)
  
