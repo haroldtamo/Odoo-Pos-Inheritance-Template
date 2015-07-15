@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="template" xml:space="preserve">
+     <t t-extend="PosWidget" >
+        <t t-jquery=".pos-leftpane .window" t-operation="prepend">
+            <t t-jquery=".placeholder-OrderWidget" t-operation="before">
+                <header class='leftpane-header'>
+                    <div class="placeholder-YourWidget"></div>
+                </header>
+            </t>
+        </t>
+     </t>
+
+    <t t-extend="OrderWidget" >
+        <t t-jquery=".summary" t-operation="append">
+            <div class="element-class empty">
+              <div class='another-element-class'>
+                <span class="sub-element-class"></span>
+                  <span class="button-class">
+                    <t t-if='order.cancel_condition'>
+                      <img class="gtk-cancel" src="/web/static/src/img/icons/gtk-cancel.png\"/>
+                    </t>
+                  </span>
+              </div>
+            </div>
+        </t>
+     </t>
+</templates>

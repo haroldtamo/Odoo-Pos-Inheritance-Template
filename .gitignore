@@ -1,0 +1,7 @@
+*.pyc
+*openerp-server.conf
+*openerp-local.conf
+.local/
+*.sess
+.idea/
+build/
