@@ -20,6 +20,30 @@ Read More About the Scaffold Command
 [English](https://www.odoo.com/documentation/8.0/reference/cmdline.html)
 
 [French](http://www.y-note.cm/debuter-avec-odoo-creer-un-module-en-une-commande/)
+
  
+Template pour la modification du POS
+====================================
+
+
+Un template pour modifier le POS plus rapidement.
+
+
+Comment l'utiliser
+------------------
+
+- Déplacer le dossier pos_template vers le repertoire-Odoo/openerp/cli/templates;
+- À partir du repertoire d'Odoo, lancer la commande ./odoo.py scaffold -t theme pos_template ./addons/;
+- Le template se trouve à présent dans le repertoire repertoire-Odoo/addons;
+- Faites vos modifications;
+- Installez votre module;
+
+En savoir plus sur la commande scaffold
+---------------------------------------
+
+[En français](http://www.y-note.cm/debuter-avec-odoo-creer-un-module-en-une-commande/)
+ 
+
+
 
 
