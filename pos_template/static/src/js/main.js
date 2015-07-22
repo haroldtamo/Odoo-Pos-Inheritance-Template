@@ -1,6 +1,6 @@
 openerp.pos_template = function(instance) {
 
-    var module = instance.pos_template; // Create namespace of pos_template for your own class
+    var module = instance.pos_template; // Create namespace of pos_template for your own classes
 
     var pos_base = instance.point_of_sale; // Namespace of point_of_sale module that holds classes of the POS
 
