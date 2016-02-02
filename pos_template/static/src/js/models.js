@@ -14,4 +14,14 @@ function pos_template_models(instance, module){
         }
     });
 
+    // Update existing model loader
+    var models = pos_base.PosModel.prototype.models;
+    for(var i=0; i<models.length; i++){
+        var model=models[i];
+        if(model.model === 'model.toupdate'){
+             model.fields.push('field_to_add');
+             // ....
+        } 
+    }
+
 }
