@@ -1,11 +1,14 @@
 {
     # Theme information
-    'name': "pos_template",
+    'name': "POS template",
     'description': """
+        Generic Template to extend features of Point Of Sale
     """,
     'category': 'Theme',
     'version': '1.0',
     'depends': ['point_of_sale'],
+    'price': 5.00,
+    'currency': 'EUR',
 
     # templates
     'data': [
@@ -20,5 +23,5 @@
 
     # Your information
     'author': "Harold TAMO",
-    'website': "http://www.y-note.cm/author/h-tamo/",
+    'website': "http://www.y-note.cm/",
 }
